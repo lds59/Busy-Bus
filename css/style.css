@@ -26,7 +26,7 @@ h2 {
 
 .bus-number {
   color: #643BD3;
-  font-size: 28px;
+  font-size: 27px;
   font-weight: bold;
   padding: 10px;
   margin: 15px;
@@ -57,7 +57,7 @@ h2 {
 
 .destination {
   color: #000000;
-  font-size: 16px;
+  font-size: 17px;
   text-align: left;
 }
 
@@ -79,12 +79,12 @@ h2 {
 }
 
 .next-bus-time {
-  font-size: 20px;
+  font-size: 17px;
   margin: 7px 0;
 }
 
 .na {
-  font-size: 20px;
+  font-size: 17px;
   padding: 20px;
 }
 
