@@ -11,20 +11,17 @@ body {
 }
 
 .container {
-  display: flex;
+  width: 100%;
 }
+
 .arrow {
   max-height: 22px;
   max-width: 19px;
-  width: 100px;
-  height: 100px;
 }
 
 .flag {
   max-height: 22px;
   max-width: 19px;
-  width: 100px;
-  height: 100px;
 }
 
 h1 {
@@ -144,42 +141,43 @@ img {
 }
 
 .footer {
-  padding: 20px;
   background-color: #643BD3;
   display: flex;
+  width: 100.5;
 }
 
 .home {
-  max-height: 22px;
-  max-width: 19px;
-  width: 120px;
-  height: 120px;
+  max-height: 27px;
+  max-width: 27px;
+
+  margin: 20px;
+
 }
 
 .account {
-  max-height: 22px;
-  max-width: 19px;
-  width: 120px;
-  height: 120px;
+  max-height: 27px;
+  max-width: 27px;
+
+  margin: 20px;
 }
 
 .microphone {
-  max-height: 22px;
-  max-width: 19px;
-  width: 120px;
-  height: 120px;
+  max-height: 27px;
+  max-width: 27px;
+
+  margin: 20px;
 }
 
 .star {
-  max-height: 22px;
-  max-width: 19px;
-  width: 120px;
-  height: 120px;
+  max-height: 27px;
+  max-width: 27px;
+
+  margin: 20px;
 }
 
 .search {
-  max-height: 22px;
-  max-width: 19px;
-  width: 120px;
-  height: 120px;
+  max-height: 27px;
+  max-width: 27px;
+
+  margin: 20px;
 }
