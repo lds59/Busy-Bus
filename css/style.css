@@ -4,24 +4,48 @@
 
 body {
   background-color: #FFFFFF;
-  font-family: Raleway; 
+  font-family: sans-serif; Raleway;
   height: 667px;
   margin: 0 auto;
   width: 375px;
-
 }
 
+.container {
+  display: flex;
+}
+.arrow {
+  max-height: 22px;
+  max-width: 19px;
+  width: 100px;
+  height: 100px;
+}
+
+.flag {
+  max-height: 22px;
+  max-width: 19px;
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  font-family: sans-serif; Raleway;
+  text-align: center;
+  padding: 23px;
+  background-color: #643BD3;
+  color: #FFFFFF;
+  font-size: 17px;
+
+}
 h2 {
   color: #FFFFFF;
-  font-family: Raleway;
   font-size: 16px;
   text-indent: 10px;
   text-transform: uppercase;
   background-color: #643BD3;
-  border-top: 1.5px solid #000000;
-  border-bottom: 1.5px solid #000000;
-  border-left: 1.5px solid #000000;
-  border-right: 1.5px solid #000000;
+  border-top: 1.5px solid #8E8E93;
+  border-bottom: 1.5px solid #8E8E93;
+  border-left: 1.5px solid #8E8E93;
+  border-right: 1.5px solid #8E8E93;
   width: 100%;
   text-weight: bold;
 
@@ -38,12 +62,10 @@ h2 {
 
 .bus {
   background-color: #FFFFFF;
-  border-left: 1.5px solid #000000;
-  border-right: 1.5px solid #000000;
-  border-top: 1.5px solid #000000;
-  border-bottom: 1.5px solid #000000;
-  border-left: 1.5px solid #000000;
-  border-right: 1.5px solid #000000;
+  border-left: 1.5px solid #8E8E93;
+  border-right: 1.5px solid #8E8E93;
+  border-top: 1.5px solid #8E8E93;
+  border-bottom: 1.5px solid #8E8E93;
   color: #000000;
   display: flex;
   height: 69px;
@@ -63,6 +85,9 @@ h2 {
   color: #000000;
   font-size: 17px;
   text-align: left;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .time {
@@ -115,10 +140,46 @@ h2 {
 img {
   display: block;
   width: 100%;
-  border-left: 1.5px solid #000000;
-  border-right: 1.5px solid #000000;
-  border-top: 1.5px solid #000000;
-  border-bottom: 1.5px solid #000000;
-  border-left: 1.5px solid #000000;
-  border-right: 1.5px solid #000000;
+
+}
+
+.footer {
+  padding: 20px;
+  background-color: #643BD3;
+  display: flex;
+}
+
+.home {
+  max-height: 22px;
+  max-width: 19px;
+  width: 120px;
+  height: 120px;
+}
+
+.account {
+  max-height: 22px;
+  max-width: 19px;
+  width: 120px;
+  height: 120px;
+}
+
+.microphone {
+  max-height: 22px;
+  max-width: 19px;
+  width: 120px;
+  height: 120px;
+}
+
+.star {
+  max-height: 22px;
+  max-width: 19px;
+  width: 120px;
+  height: 120px;
+}
+
+.search {
+  max-height: 22px;
+  max-width: 19px;
+  width: 120px;
+  height: 120px;
 }
