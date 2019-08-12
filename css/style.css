@@ -6,22 +6,49 @@ body {
   background-color: #FFFFFF;
   font-family: sans-serif; Raleway;
   height: 667px;
-  margin: 0 auto;
+  margin: auto;
   width: 375px;
+}
+
+.wrapper {
+  border: 1.5px solid #8E8E93;
 }
 
 .container {
   width: 100%;
+  position: relative;
+}
+
+.back {
+  display: inline;
+  position: absolute;
+  padding: 23px;
+  color: #FFFFFF;
+  font-family: sans-serif; Raleway;
+  margin-left: 12px;
+  font-size: 17px;
+
 }
 
 .arrow {
-  max-height: 22px;
+  height: 20px;
+  width: 15px;
+  display: inline;
+  position: absolute;
+  padding-left: 12px;
+  padding-top: 22px;
+  padding-bottom: 23px;
+  max-height: 19px;
   max-width: 19px;
 }
 
 .flag {
-  max-height: 22px;
-  max-width: 19px;
+  height: 25px;
+  width: 25px;
+  display: inline;
+  position: absolute;
+  padding: 20px;
+  margin-left: 315px;
 }
 
 h1 {
@@ -39,10 +66,8 @@ h2 {
   text-indent: 10px;
   text-transform: uppercase;
   background-color: #643BD3;
-  border-top: 1.5px solid #8E8E93;
-  border-bottom: 1.5px solid #8E8E93;
-  border-left: 1.5px solid #8E8E93;
-  border-right: 1.5px solid #8E8E93;
+  border-top: 0.75px solid #643BD3;
+  border-bottom: 0.75px solid #643BD3;
   width: 100%;
   text-weight: bold;
 
@@ -59,8 +84,6 @@ h2 {
 
 .bus {
   background-color: #FFFFFF;
-  border-left: 1.5px solid #8E8E93;
-  border-right: 1.5px solid #8E8E93;
   border-top: 1.5px solid #8E8E93;
   border-bottom: 1.5px solid #8E8E93;
   color: #000000;
@@ -100,8 +123,6 @@ h2 {
   color: #8c8c8c;
   font-size: 13px;
   margin-top: 2px;
-
-
 }
 
 .next-bus-time {
@@ -140,48 +161,58 @@ img {
 
 }
 
-.footer {
+.contain {
   background-color: #643BD3;
   display: flex;
-}
-
-.contain {
-  display: inline-block;
-  width: 100%;
 }
 
 .home {
   max-height: 27px;
   max-width: 27px;
-
-  margin: 20px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  margin-bottom: 12px;
 
 }
 
 .account {
   max-height: 27px;
   max-width: 27px;
-
-  margin: 20px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .microphone {
   max-height: 27px;
   max-width: 27px;
-
-  margin: 20px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .star {
   max-height: 27px;
   max-width: 27px;
-
-  margin: 20px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .search {
   max-height: 27px;
   max-width: 27px;
-
-  margin: 20px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
