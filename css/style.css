@@ -143,7 +143,11 @@ img {
 .footer {
   background-color: #643BD3;
   display: flex;
-  width: 100.5;
+}
+
+.contain {
+  display: inline-block;
+  width: 100%;
 }
 
 .home {
