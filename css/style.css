@@ -10,8 +10,8 @@ body {
   width: 375px;
 }
 
-.wrapper {
-  border: 1.5px solid #8E8E93;
+html {
+  background-color: #f2f2f2;
 }
 
 .container {
@@ -55,7 +55,7 @@ h1 {
   font-family: sans-serif; Raleway;
   text-align: center;
   padding: 23px;
-  background-color: #643BD3;
+  background-color: #673dd9;
   color: #FFFFFF;
   font-size: 17px;
 
@@ -65,16 +65,18 @@ h2 {
   font-size: 16px;
   text-indent: 10px;
   text-transform: uppercase;
-  background-color: #643BD3;
+  background-color: #673dd9;
   border-top: 0.75px solid #643BD3;
   border-bottom: 0.75px solid #643BD3;
   width: 100%;
   text-weight: bold;
+  padding: 0.5rem;
+  box-sizing: border-box;
 
 }
 
 .bus-number {
-  color: #643BD3;
+  color: #673dd9;
   font-size: 27px;
   font-weight: bold;
   padding: 10px;
@@ -84,7 +86,6 @@ h2 {
 
 .bus {
   background-color: #FFFFFF;
-  border-top: 1.5px solid #8E8E93;
   border-bottom: 1.5px solid #8E8E93;
   color: #000000;
   display: flex;
@@ -162,7 +163,7 @@ img {
 }
 
 .contain {
-  background-color: #643BD3;
+  background-color: #673dd9;
   display: flex;
 }
 
